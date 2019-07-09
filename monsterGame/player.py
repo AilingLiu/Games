@@ -35,7 +35,7 @@ class Player(Fighter):
         
     @property
     def defense(self):
-        return self.defense
+        return self._defense
 
     @defense.setter
     def defense(self, defense):
